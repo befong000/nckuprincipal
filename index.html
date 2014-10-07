@@ -1,0 +1,339 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Easier Website Template | Home :: w3layouts</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="#">成大校長遴選</a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li class="active"><a href="#home" class="scroll">首頁 </a></li>
+								<li class="page-scroll"><a href="#work" class="scroll">關於候選人</a></li>
+								<li class="page-scroll"><a href="#team" class="scroll">候選人政見</a></li>
+								<li class="contatct-active" class="page-scroll"><a href="#contact" class="scroll">候選人給問嗎？</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!----banner---->
+			<div class="banner text-center">
+				<div class="container">
+					<div class="banner-info">
+						<h1><span>改變</span>從你我開始</h1>
+						<p>This time,we hope everyone of you to participate in the election.</p>
+						<label class="page-scroll"><a class="big-btn scroll" href="#work1"><span> </span></a></label>
+					</div>
+				</div>
+			</div>
+			<!--//banner---->
+			<!---work--->
+			<div id="work" class="work">
+				<div id="work1" class="container">
+					<div class="head-one text-center">
+						<h2>關於候選人</h2>
+						<span> </span>
+						<p>這裡提供給你每一位校長候選人的現職及專長領域參考.</p>
+					</div>
+					<!---works--->
+					<!---images-hover-effects--->
+					<script src="js/jquery.hoverGrid.js"></script>
+					<link rel="stylesheet" type="text/css" href="css/jquery.hoverGrid.css">
+					<script type="text/javascript">
+					    $(document).ready(function() {
+					      $('#whatever').hoverGrid();
+					    });
+					</script>
+					<!---images-hover-effects--->
+					<div class="works">
+							<div id="whatever">
+								<div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/c1.png" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>何志欽</h2>
+								            <p>
+現任 國立成功大學：執行副校長 社會科學院院長
+中央銀行：常務理事
+;專長領域：經濟領域			            
+								            </p>
+								        </div>
+								    </div>  
+							    </div>  
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/c2.png" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>林啟禎</h2>
+								            <p>
+								            現任 成功大學醫學院骨科學科教授暨主治醫師
+ 成功大學學生事務長
+ 臺南市成大校友文教基金會董事長
+ 教育部南區大專校院學生事務工作協調聯絡中心召集人
+ 亞洲與太平洋區（亞太）小兒骨科醫學會理事長       ;專長領域：醫學領域								            </p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/c3.png" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>陳良基</h2>
+								            <p>現任 臺大學術副校長、講座教授及電機系特聘教授
+								            ;專長領域:電機工程領域</p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/c4.png" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>曾永華</h2>
+								            <p>現任 成功大學電機講座教授兼電機資訊學院院長
+								            ;專長領域:電機工程領域 </p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/c5.png" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>蘇慧貞</h2>
+								            <p>現任 成功大學環境醫學研究所特聘教授 兼 副校長
+								            ;專長領域:環境衛生科學領域
+								        </p>
+								        </div>
+								    </div>  
+							    </div>    
+							  
+							    <div class="clearfix"> </div>               
+							</div>
+					</div>
+					 <div class="clearfix"> </div>   
+					</div>
+				</div>
+					<!---//works--->
+					<!---team--->
+					<div id="team" class="team">
+						<div class="container">
+							<div class="head-one text-center team-head">
+								<h2>候選人政見</h2>
+								<span> </span>
+								<p>不問過去,只問未來,以下是我們每位候選人的成大未來藍圖.</p>
+							</div>	
+							<!----team-members---->
+							<div class="team-members">
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" src="images/c1.png" title="name" />
+										<h3>何志欽</h3>
+										<span> （一）追求自由公義，致力典範傳承</span>
+										<span> （二）鼓勵教育創新，提升治理績效</span>
+										<span> （三）善用資源優勢，推動國際合作</span>
+										<span> （四）強化研發機制，蓄積發展能量</span>
+										<span> （五）整合行政體系，開創成大新局</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" src="images/c2.png" title="name" />
+										<h3>林啟禎</h3>
+										<span>（一）定位與願景：透過實踐社會責任來邁向世界頂尖大學
+										（二）教育與人才策略：多元肯定,吸引人才,豐富學涯,永續發展
+										 (三) 研究與創新策略
+										 （四）校友與產學策略 (五)在地深耕策略 (六)國際接軌策略 (七)領導與團隊策略
+										</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" src="images/c3.png" title="name" />
+										<h3>陳良基</h3>
+										<span>
+										（一）教與學的紮根與均衡發展
+										（二）研究的創新、追求卓越與社會奉獻
+										（三）國際資源連結與行動力
+										（四）有效率的行政團隊
+										（五）強化辦學特色，爭取並整合資源
+
+</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" src="images/c4.png" title="name" />
+										<h3>曾永華</h3>
+										<span>（一）桃李芬芳，菁英薈萃 
+										（二）致知窮理，大道宏揚 
+										（三）逐夢樂趣，美夢成真 
+										</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+									<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" src="images/c5.png" title="name" />
+										<h3>蘇慧貞</h3>
+										<span>（一）厚植人文底蘊、連結歷史資產、共建校園文化
+										（二）融入翻轉教學、改善創新環境、培育多元人才
+										（三）增強學輔功能、涵養博雅內涵、拓展全球視野
+										（四）確保全面提升、深耕優勢領域、優化產研績效
+										（五）提升教研設備、改進配套制度、建設智慧校園
+										（六）建構完整資訊、友善溝通機制、學研行政共享
+										（七）結合城市發展、加強國際連結、開創全球佈局
+										（八）落實募款規劃、培育職工成長、奠基永續發展
+										</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<!----//team-members---->
+						</div>
+					</div>
+					<!---//team--->
+					<!---Contact--->
+					<div id="contact" class="contact">
+						<div class="container">
+							<div class="head-one text-center">
+								<h2>contact</h2>
+								<span> </span>
+							</div>
+							
+								<div class="col-md-7 contact-form">
+								<p>給xxx校長候選人,請問......</p>	
+								<form>
+									<textarea>Leave us a message...</textarea>
+									<input type="text" value="Your@mail.com">
+									<input type="submit" value="Send" />
+								</form>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<!---//Contact--->
+					<!---footer--->
+					<div class="footer">
+						<div class="container">
+							<div class="footer-left">
+								<p><span>Adress:</span> ipsum dolor sit amet, consectetur adipiscing - elit.</p>
+							</div>
+							<div class="footer-right">
+								<p>Template by <a href="#">W3layouts</a></p>
+								<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<!---//footer--->
+				</div>
+			</div>
+			
+	</body>
+</html>
+
